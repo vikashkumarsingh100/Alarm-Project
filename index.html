@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Alarm Clock</h1>
+        <div class="time"><span id="hour"></span>:<span id="minute"></span>:<span id="second"> </span> <span id="AMPM"></span></div>
+        <div class="input1"><input type="number" min="0" max="11" value="11" id="sethour"><input type="number" min="0" max="59" value="11"id="setminute"><input type="number" min="0" max="59" value="11" id="setsecond">
+            <select id="setampm">
+                <option>AM</option>
+                <option>PM</option>
+            </select>
+            <button id="setAlarm">Set Alarm</button>
+        </div>
+        
+      
+       
+        <div >
+            <h3>Alarm List</h3>
+            <ul id="alarmlist"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
